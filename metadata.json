@@ -1,0 +1,7 @@
+{
+  "name": "Copy of ARControl Ganadero",
+  "description": "Plataforma integral para la gestión ganadera y mercado de compraventa de ganado, insumos y servicios.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
