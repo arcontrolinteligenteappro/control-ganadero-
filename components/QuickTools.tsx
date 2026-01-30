@@ -7,10 +7,23 @@ import {
 
 type ToolType = 'calc' | 'conv' | 'notes' | 'calendar_mini' | null;
 
-const QuickTools: React.FC<{ activeTool: ToolType; onClose: () => void }> = ({ activeTool, onClose }) => {
+interface QuickToolsProps {
+  activeTool: ToolType;
+  onClose: () => void;
+}
+
+const QuickTools: React.FC<QuickToolsProps> = ({ activeTool, onClose }) => {
   const [calcValue, setCalcValue] = useState('0');
   const [convValue, setConvValue] = useState<string>('0');
   const [convType, setConvType] = useState('kg-lb');
+
+  // Reset states when tool changes
+  useEffect(() => {
+    if (!activeTool) {
+      setCalcValue('0');
+      setConvValue('0');
+    }
+  }, [activeTool]);
 
   if (!activeTool) return null;
 

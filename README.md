@@ -1,56 +1,35 @@
+# 🐂 AR CONTROL GANADERO PRO :: INGENIERÍA INTELIGENTE
 
-# 🐂 AR CONTROL GANADERO PRO - MANUAL MAESTRO
+Sistema de Inteligencia Artificial de grado industrial para la gestión integral de activos pecuarios, optimizado para tablets Android y operaciones de campo de alto rendimiento.
 
-Plataforma inteligente compacta para la gestión agropecuaria profesional. Integra control de hato, sanidad, finanzas y mercado regional mediante Inteligencia Artificial (Gemini 3.1).
+## 🚀 Arquitectura Operativa (V5.0 - Final)
 
-## 🛠️ Instalación Rápida (Terminal)
+### 1. BIO-CONTROL & TRAZABILIDAD
+*   **Inventario Maestro**: Control biométrico avanzado con identificadores únicos (Aretes/QR/SINIIGA).
+*   **Expediente Sanitario**: Historial clínico expandible, bitácora de tratamientos y alertas de vacunación automática con IA.
+*   **Control Bio-Etológico**: Registro de baños (garrapaticidas) con sugerencias de intervalos biológicos.
 
-Para desplegar el sistema en un entorno local o servidor de desarrollo:
+### 2. INTELIGENCIA DE NEGOCIOS (Negocios Pro)
+*   **Directorio Comercial 360**: Gestión de Compradores y Proveedores con captura de foto (Cámara/Galería), datos fiscales y límites de crédito.
+*   **Tesorería Maestra**: Libro mayor sincronizado. Registro de Compras, Ventas, Abonos y Cargos que afectan el balance en tiempo real.
+*   **Facturación Técnica**: Generación dinámica de tickets de 80mm y documentos PDF con branding configurable desde Ajustes.
+*   **Marketplace IA**: Análisis de tendencias regionales (Nayarit/Occidente) utilizando Gemini IA para optimizar la toma de decisiones comerciales.
 
-### 1. Preparación de Archivos
-Descargue el repositorio y sitúese en la carpeta raíz.
+### 3. LOGÍSTICA & PERSONAL
+*   **Manejo de Potreros**: Mapa de rotación de pastizales y cálculo de capacidad de carga animal.
+*   **Nómina Inteligente**: Pase de lista diario con bitácora de tareas. Cálculo automático de sueldos, préstamos y liquidaciones.
 
-```bash
-# Crear directorio de trabajo
-mkdir ar-ganadero-pro && cd ar-ganadero-pro
-
-# Instalar dependencias base
-npm install react react-dom lucide-react recharts @google/genai
-```
-
-### 2. Llave Maestro IA (Gemini)
-El sistema requiere una API KEY activa para los servicios de consultoría técnica y financiera.
-
-**Linux / Mac / Termux:**
-```bash
-export API_KEY="TU_API_KEY_AQUI"
-```
-
-**Windows (PowerShell):**
-```powershell
-$env:API_KEY = "TU_API_KEY_AQUI"
-```
+### 4. SEGURIDAD DE GRADO MILITAR
+*   **Terminal de Auditoría**: Monitoreo en tiempo real de la integridad de los nodos y cifrado AES-256.
+*   **Cloud Sync**: Respaldo automático y restauración vía Google Drive.
 
 ---
 
-## 🏗️ Arquitectura de Módulos (Navegación por Pestañas)
+## 🛠️ Herramientas de Mando (Botón AR)
+*   **Calculadora Técnica**: Operaciones financieras y dosificación de fármacos.
+*   **Conversor Maestro**: Unidades de superficie, volumen y peso ganadero.
+*   **Bitácora Rápida**: Notas de sesión con autoguardado encriptado.
 
-- **BIO-CONTROL**: Gestión de Hato Maestro, Sanidad Clínica y Ciclo Reproductivo.
-- **OPERACIONES**: Control de Potreros (Rotación) y Gestión de Personal (Nómina/Asistencia).
-- **NEGOCIOS**: Mercado Digital Regional, Tesorería (Flujo de Caja) y Directorio de Clientes.
-- **CONSULTOR IA**: Asistente técnico veterinario y analista de mercado regional en tiempo real.
-
-## 🧰 Herramientas Rápidas (Botón AR)
-- **Calculadora Pro**: Resolución de operaciones matemáticas.
-- **Conversor Técnico**: Unidades de peso, área y volumen agropecuario.
-- **Notas Rápidas**: Bitácora de sesión inmediata.
-- **Agenda Mini**: Vista rápida de eventos próximos.
-
-## 🎨 Dualidad de Interfaz
-- **MODO INSTITUCIONAL**: Orientado a auditoría y gestión administrativa de escritorio.
-- **MODO HACKER (TECH)**: Interfaz futurista de alto contraste con animaciones de escaneo, optimizada para uso en campo.
-
----
-**Ingeniería de Software por ChrisRey91**  
-*Inteligencia Aplicada al Campo*  
+**Desarrollado por ChrisRey91**  
+*Ingeniería Inteligente aplicada al sector primario.*  
 [www.arcontrolinteligente.com](https://www.arcontrolinteligente.com)

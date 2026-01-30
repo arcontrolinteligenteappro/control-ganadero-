@@ -1,6 +1,6 @@
 {
-  "name": "ARControl Ganadero",
-  "description": "Plataforma integral para la gestión ganadera y mercado de compraventa de ganado, insumos y servicios.",
+  "name": "AR CONTROL GANADERO PRO",
+  "description": "Sistema de Inteligencia Artificial para la gestión integral de ranchos, control de hato y mercado pecuario.",
   "requestFramePermissions": [
     "camera",
     "microphone"
