@@ -1,20 +1,56 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
 
-# Run and deploy your AI Studio app
+# 🐂 AR CONTROL GANADERO PRO - MANUAL MAESTRO
 
-This contains everything you need to run your app locally.
+Plataforma inteligente compacta para la gestión agropecuaria profesional. Integra control de hato, sanidad, finanzas y mercado regional mediante Inteligencia Artificial (Gemini 3.1).
 
-View your app in AI Studio: https://ai.studio/apps/drive/1jhrIsi6pxAnfoYneCshpGiqSSSIODEjG
+## 🛠️ Instalación Rápida (Terminal)
 
-## Run Locally
+Para desplegar el sistema en un entorno local o servidor de desarrollo:
 
-**Prerequisites:**  Node.js
+### 1. Preparación de Archivos
+Descargue el repositorio y sitúese en la carpeta raíz.
 
+```bash
+# Crear directorio de trabajo
+mkdir ar-ganadero-pro && cd ar-ganadero-pro
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+# Instalar dependencias base
+npm install react react-dom lucide-react recharts @google/genai
+```
+
+### 2. Llave Maestro IA (Gemini)
+El sistema requiere una API KEY activa para los servicios de consultoría técnica y financiera.
+
+**Linux / Mac / Termux:**
+```bash
+export API_KEY="TU_API_KEY_AQUI"
+```
+
+**Windows (PowerShell):**
+```powershell
+$env:API_KEY = "TU_API_KEY_AQUI"
+```
+
+---
+
+## 🏗️ Arquitectura de Módulos (Navegación por Pestañas)
+
+- **BIO-CONTROL**: Gestión de Hato Maestro, Sanidad Clínica y Ciclo Reproductivo.
+- **OPERACIONES**: Control de Potreros (Rotación) y Gestión de Personal (Nómina/Asistencia).
+- **NEGOCIOS**: Mercado Digital Regional, Tesorería (Flujo de Caja) y Directorio de Clientes.
+- **CONSULTOR IA**: Asistente técnico veterinario y analista de mercado regional en tiempo real.
+
+## 🧰 Herramientas Rápidas (Botón AR)
+- **Calculadora Pro**: Resolución de operaciones matemáticas.
+- **Conversor Técnico**: Unidades de peso, área y volumen agropecuario.
+- **Notas Rápidas**: Bitácora de sesión inmediata.
+- **Agenda Mini**: Vista rápida de eventos próximos.
+
+## 🎨 Dualidad de Interfaz
+- **MODO INSTITUCIONAL**: Orientado a auditoría y gestión administrativa de escritorio.
+- **MODO HACKER (TECH)**: Interfaz futurista de alto contraste con animaciones de escaneo, optimizada para uso en campo.
+
+---
+**Ingeniería de Software por ChrisRey91**  
+*Inteligencia Aplicada al Campo*  
+[www.arcontrolinteligente.com](https://www.arcontrolinteligente.com)
